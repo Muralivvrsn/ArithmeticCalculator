@@ -22,11 +22,30 @@ button{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 }
+.btn-mid > button{
+    width: 45px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 5px;
+}
 .btn-bt{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
 }
+.btn-bt > button{
+    border-radius: 5px;
+    margin: 5px;
+}
+.btn-r{
+    border: 2px solid black;
+}
 .btn-r > button{
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
+    margin: 10px;
+}
+.btn-r3{
+    margin: 0px 0px 0px 900px;
 }
