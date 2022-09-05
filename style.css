@@ -1,51 +1,33 @@
 .main{
     width: fit-content;
-    height: fit-content;
     height: auto;
-    border: 2px solid black;
     border-radius: 5px;
     margin: auto;
+    margin-top: 10%;
 }
 input{
-    width: 500px;
-    height: 100px;
+    width: 400px;
+    height: 60px;
     text-align: right;
     font-family: monospace;
     font-size: 3rem;
 }
 button{
-    width: 80px;
-    height: 50px;
+    text-align: center;
+    width: 100px;
+    height: 80px;
+    font-size: 1.5rem;
 }
-.btn-mid{
+.buttons{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-}
-.btn-mid > button{
-    width: 45px;
-    height: 30px;
-    border-radius: 5px;
-    margin: 5px;
-}
-.btn-bt{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
+    width: fit-content;
+    height: fit-content;
 }
-.btn-bt > button{
-    border-radius: 5px;
-    margin: 5px;
+#btn15{
+    color: rgb(88, 197, 88);
 }
-.btn-r{
-    border: 2px solid black;
-}
-.btn-r > button{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    margin: 10px;
-}
-.btn-r3{
-    margin: 0px 0px 0px 900px;
+#btn16{
+    color: red;
 }
