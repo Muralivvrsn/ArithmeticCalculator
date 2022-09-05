@@ -21,9 +21,7 @@ buttons.forEach(element => {
             str="";
         }
         else if(element===answer){
-            if(str!==""){
-                str = eval( str );
-            }
+            str=eval(str);
         }
         else{
             str=str.slice(0,-1);
